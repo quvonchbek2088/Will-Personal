@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body{
   background-color: #273035;
 }
@@ -107,8 +112,8 @@ main {
 
 section{
   width: 0 auto;
-  margin-top: 45px;
-  height: 110vh;
+  margin-top: 205px;
+  height: 1340px;
   background-color: black;
 }
 section .wrapbox {
@@ -119,6 +124,7 @@ section .servic-section .wrapbox .p1 {
   font-size: 46px;
   font-weight: 700;
   color: white; 
+  padding-top: 150px;
 }
 section .servic-section .wrapbox .p2 {
   font-weight: 500;
@@ -126,7 +132,7 @@ section .servic-section .wrapbox .p2 {
   line-height: 24px;
   color: #CCCCCC;
   padding-left: 251px;
-  padding-top: 50px;
+  padding-top: 170px;
 
 }
 section .servic-section .wrapbox span{
@@ -142,6 +148,7 @@ section .servic-section .wrapbox span{
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
+  padding-top: 70px;
 }
 .section-part .section-box img{
   border-radius: 50%;
@@ -176,3 +183,142 @@ section .servic-section .wrapbox span{
   color: #FFD500;
   
 }
+#about{
+  width: 1440px;
+  height: 780px;
+}
+
+#about img{
+  padding: 100px;
+}
+#about p{
+  padding-left: 800px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #CCCCCC;
+  padding-top: 24px;
+}
+#about h1{
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 64px;
+  color: #FFFFFF;
+  padding-left: 800px;
+  margin-top: -600px;
+}
+#about h1 span{
+  color: #FFD500;
+  text-decoration: underline;
+}
+#about .button{
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 24px;
+  color: #FFD500;
+  padding-top: 40px;
+}
+#about .connect{
+  padding-top: 90px;
+}
+
+
+  #about ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    padding-left: 990px;
+    margin-top: -30px;
+}
+    #about  ul li {
+      background: #3691FC;
+      border-radius: 50%;
+      padding: 10px; }
+      #about  ul li:hover {
+        transform: scale(1.2);
+        transition: 0.3s linear;
+        background-color: #FFD500;
+        color: #3691FC;
+       }
+       #about  ul li:hover .fa-brands{
+        color: #3691FC;
+       } 
+        #about  ul li a {
+        text-decoration: none; }
+        #about  ul li i {
+        font-size: 18px;
+        color: white; 
+}
+#about  .button:hover{
+  font-size: 25px;
+  text-shadow: 2px 2px 4px white;
+  transition: 0.77s;
+}
+
+
+
+#work{
+  width: 0 auto;
+  height: 2520px;
+  background-color: black;
+}
+#work .work-title h1{
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 150px;
+}
+#work .work-title h1 span{
+  color: #FFD400;
+  text-decoration: underline;
+}
+#work .work-title p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #CCCCCC;
+  padding-top: 25px;
+}
+#work .work-box{
+  width: 385px;
+  background-color: #222B2F;
+  height: 410px;
+  border-radius: 16px;
+  margin-top: 16px;
+}
+
+#work .work-box img{
+  border-radius: 50%;
+  padding: 42px 147px ;
+}
+
+#work .work-box h1{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#work .work-box p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 16px;
+}
+#work .work-box .p a{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #FFD500;
+}
+
+#work .work-box .p a i {
+  padding-left: 15px;
+}
+
