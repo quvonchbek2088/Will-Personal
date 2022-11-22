@@ -287,38 +287,49 @@ section .servic-section .wrapbox span{
   background-color: #222B2F;
   height: 410px;
   border-radius: 16px;
-  margin-top: 16px;
 }
 
-#work .work-box img{
+#work .work-section .work-box img{
   border-radius: 50%;
   padding: 42px 147px ;
+  border: none;
 }
 
-#work .work-box h1{
+#work .work-section .work-box h1{
   font-weight: 700;
   font-size: 28px;
   line-height: 35px;
   color: #FFFFFF;
   text-align: center;
+  border: none;
 }
-#work .work-box p{
+#work .work-section .work-box p{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   color: #FFFFFF;
   padding-top: 16px;
+  border: none;
 }
-#work .work-box .p a{
+#work .work-section .work-box .p a{
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-decoration-line: underline;
   color: #FFD500;
+  border: none;
 }
 
-#work .work-box .p a i {
+#work .work-section .work-box  .p a i {
   padding-left: 15px;
+  border: none;
 }
-
+#work .work-section{
+  display: flex;
+  gap: 25px;
+  padding-top: 70px;
+}
+#work .work-section :hover{
+  border-bottom: 8px solid #FFD400;
+}
