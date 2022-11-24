@@ -21,6 +21,8 @@ border-bottom: 1px solid #FFD500;
 display: flex;
 justify-content: space-between;
 align-items: center;
+padding-top: 25px;
+padding-bottom: 10px;
 }
 .mobile-menu .logo {
 font-size: 24px;
@@ -70,7 +72,9 @@ main {
         main .wrap .part-left .social-icons ul {
           list-style: none;
           display: flex;
-          gap: 20px; }
+          gap: 20px;
+          padding-top: 10px;
+         }
           main .wrap .part-left .social-icons ul li {
             background: #3691FC;
             border-radius: 50%;
@@ -241,7 +245,7 @@ section .servic-section .wrapbox span{
         color: #3691FC;
        }
        #about  ul li:hover .fa-brands{
-        color: #3691FC;
+        color: #ed1717;
        } 
         #about  ul li a {
         text-decoration: none; }
@@ -332,4 +336,103 @@ section .servic-section .wrapbox span{
 }
 #work .work-section :hover{
   border-bottom: 8px solid #FFD400;
+}
+#work .work-form h1{
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 150px;
+}
+#work .work-form h1 span{
+ color: #FFD400;
+ text-decoration: underline;
+}
+#work .work-form p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  text-align: center;
+  padding-top: 25px;
+  color: #CCCCCC;
+}
+.work-img{
+  display: flex;
+  flex-wrap: wrap;
+}
+.work-img .work-img-title img{
+  width: 590px;
+  height: 390px;
+  border-radius: 26px;
+  padding: 72px;
+}
+.work-img .work-img-title img:hover{
+  border-radius: 50%;
+  transition: 1.5s;
+}
+.work-img .work-img-title .h1{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  /* identical to box height */ 
+  color: #FFFFFF;
+  padding-top: 42px;
+  padding-left: 80px;
+}
+.work-img .work-img-title .p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  color: #FFFFFF;
+  padding-top: 16px;
+  padding-left: 80px;
+}
+.work-img .work-img-title p a{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  color: #FFD500;
+  padding-left: 80px;
+}
+.work-img .work-img-title p a i{
+  padding-top: 32px;
+  padding-right: 20px;
+}
+#contact{
+  width: 0 auto;
+  height: 450px;
+}
+#contact .personal{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  padding-top: 75px;
+}
+#contact .personal .personal-title h1{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+#contact .personal .personal-title p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px; 
+  color: #F0F3F4;
+  padding-top: 30px;
+}
+#contact .personal .personal-title .personal-logo ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+#contact .personal .personal-title .personal-logo ul li{
+  background-color: #3691FC;
+  border-radius: 10px;
 }
