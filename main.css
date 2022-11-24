@@ -408,11 +408,11 @@ section .servic-section .wrapbox span{
   width: 0 auto;
   height: 450px;
 }
-#contact .personal{
+
+.contact-main{
+  padding-top: 70px;
   display: flex;
-  flex-wrap: wrap;
-  gap: 150px;
-  padding-top: 75px;
+  justify-content: space-between;
 }
 #contact .personal .personal-title h1{
   font-weight: 700;
@@ -425,14 +425,86 @@ section .servic-section .wrapbox span{
   font-size: 16px;
   line-height: 24px; 
   color: #F0F3F4;
-  padding-top: 30px;
+  padding-top: 32px;
 }
-#contact .personal .personal-title .personal-logo ul{
+#contact .personal  ul{
   list-style: none;
   display: flex;
   gap: 10px;
 }
-#contact .personal .personal-title .personal-logo ul li{
+#contact .personal  ul li{
+padding-top: 30px;
+
+}
+#contact .personal  ul li a {
   background-color: #3691FC;
-  border-radius: 10px;
+  border-radius: 50%;
+  padding: 15px;
+}
+#contact .personal  ul li a i {
+  color: white;
+  font-size: 18px;
+}
+.link h1{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.links {
+  padding-top: 10px;
+  display: flex;
+  gap: 70px;
+}
+.links li{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F0F3F4;
+  padding-top: 25px;
+  list-style: none;
+}
+.contact h1{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+.contact p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F0F3F4;
+
+}
+.contact ul{
+  list-style: none;
+  padding-top: 30px;
+}
+.contact ul li{
+  padding-top: 28px;
+  color: white;
+}
+.contact ul li a{
+  color: #FFD400;
+  padding-right: 19px;
+}
+
+footer{
+  width: 0 auto;
+  height: 78px;
+  background-color: #FFD400;
+}
+footer h1{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  padding:24px 120px ;
+
+  color: #222B2F;
+}
+footer p{
+  padding-left: 990px;
+  margin-top: -50px;
 }
